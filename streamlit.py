@@ -1,7 +1,7 @@
 import streamlit as st
 from transformers import pipeline
 
-# Load the pre-trained sentiment-analysis pipeline
+
 sentiment_analyzer = pipeline("sentiment-analysis")
 
 def analyze_sentiment(text):
